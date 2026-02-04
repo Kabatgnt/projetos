@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; /*alinha na horizontal*/
+    align-items: center; /*alinha na vertical*/
+    min-height: 100vh;
+    background: url(./img/samuel-ferrara-1527pjeb6jg-unsplash.jpg); /*imagem de fundo*/
+    background-size: cover;
+    background-position: center;
+}
+
+.conteiner {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(2px);
+}
+
+.conteiner:hover {
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+}
+

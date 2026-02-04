@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+/*Imperial Script Delius*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabeçalho {
+    position: fixed;
+    font-family: 'Delius', Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #025159;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(190, 190, 190);
+}
+
+.parte-1 {
+    background-image: linear-gradient(1deg, #3F858C, #7AB8BF);
+    padding: 160px 20px;
+    margin: 5px 0px 0px;
+    font-family: "Delius";
+    text-align: center;
+}
+
+.h1-parte-1 {
+    font-family: "Imperial Script", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.p-parte-1 {
+    font-size: 20px;
+}
+
+.parte-2 {
+    background-color: #A67458;
+    padding: 130px 20px;
+    margin: 0;
+    text-align: center;
+    font-family: "Delius", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.h2-parte-2 {
+    margin: 15px;
+    color: #ffffff;
+}
+
+.p-parte-2 {
+    color: #fffefe;;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    color: #E5E5E5;
+}
+
+.parte-3 {
+    padding: 130px 200px;
+    font-family: "Delius", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(1deg, rgb(211, 211, 211), rgb(255, 255, 255));
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.h2-parte-3 {
+    margin: 10px 0;
+}
+
+footer {
+    height: 100px;
+    background-color: #1F2024;
+    text-align: center;
+    padding: 40px 0;
+}
+
+@media (min-width: 1024px) {
+    .parte-1 {
+        padding: 300px 20px;
+    }
+
+    .parte-2 {
+        padding: 220px 20px;
+    }
+
+    .parte-3 {
+        padding: 200px 200px;
+    }
+}
