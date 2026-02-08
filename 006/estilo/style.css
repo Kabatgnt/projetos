@@ -63,13 +63,14 @@ header > nav {
 header > nav > a {
     padding: 10px 20px;
     text-decoration: none;
-    font-family: var(--text-pd);
+    font-family: var(--text-padrao);
     color: black;
     transition: .4s; 
+    font-size: 24px;
 }
 
 header > nav > a:hover {
-    background-color: var(--color3);
+    background-color: var(--color2);
     color: white;
     border-radius: 10px;
 }
@@ -106,58 +107,85 @@ ul {
     line-height: 2em;
 }
 
+.div-1 {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--color4);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+}
+
+.div-2 {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--color4);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+}
+
 table {
-width: 500px;
-border-collapse: collapse;
-position: relative;
-font-family: var(--font-padrao);
-margin: auto;
-margin-top: 50px;
-position: relative;
+    min-width: 200px;
+    max-width: 500px;
+    border-collapse: collapse;
+    position: relative;
+    font-family: var(--font-padrao);
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247);
 }
 
 td, th {
-border: 1px solid black;
-padding: 10px;
-background-color: rgba(109, 109, 109, 0.548);
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgba(109, 109, 109, 0.548);
 }
 
 caption {
-font-size: 1.5em;
-font-weight: bold;
-padding: 10px;
-background-color: rgba(172, 172, 172, 0.897);
-font-family: var(--font-favorita);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(172, 172, 172, 0.897);
+    font-family: var(--font-favorita);
+    border-radius: 10px 10px 0 0;
 }
 
 thead {
-background-color: rgb(37, 37, 37);
-color: rgba(255, 255, 255, 0.493);
-font-family: var(--font-favorita);
+    background-color: rgb(37, 37, 37);
+    color: rgba(255, 255, 255, 0.493);
+    font-family: var(--font-favorita);
 }
 
 thead >tr > th {
-top: -1px;
-background-color: rgb(37, 37, 37);
+    top: -1px;
+    background-color: rgb(37, 37, 37);
 }
-
 
 .num-table-1 {
-text-align: right;
-width: 60px;
+    text-align: right;
+    width: 60px;
 }
 
-
-
 .img {
-    display: inline-block;
+    display: flex;
     padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
 }
 
 .img  img {
     height: 200px;
     display: inline-block;
     border-radius: 10px;
+    transition: 1s;
+}
+
+.img img:hover {
+    height: 300px;
 }
 
 footer {
